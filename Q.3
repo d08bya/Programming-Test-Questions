@@ -1,0 +1,23 @@
+Q..3
+in switch if any of the condition passes then each and every condition after that switch statements are also passed.
+
+
+public class Main3 {
+    public static void main(String[] args) {
+        int n = 2;
+        switch (n) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                n = n + 1;
+                System.out.println("Two");
+            case 3:
+                System.out.println("Three");
+            default:
+                System.out.println("Other");
+        }
+    }
+}
+
+ans= two three other .
